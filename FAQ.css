@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-family: 'pattaya', sans-serif;
+    font-size: 1.2em;
+    background-color: #F2CC0F !important;
+}
+
+.navbar {
+    font-family: 'Henny Penny', 'Pattaya';
+    background-color: black !important;
+    opacity: 0.8;
+}
+
+nav ul li a {
+    color: white !important;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.15s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #F2CC0F !important;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.blackWrapper {
+    background-color: black;
+    padding-top: 1px;
+}
+
+.firstImg {
+    background: url('pictures/coverFAQ.jpg');
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Henny Penny', 'Pattaya';
+    text-align: center;
+    line-height: 1.5;
+    font-size: 5rem !important;
+    color: white;
+    padding: 70px;
+    text-shadow: 0 0 8px #F2CC0F;
+}
+
+.bcgColor1 {
+    background-color: #F2CC0F !important;
+}
+
+.bcgColor2 {
+    background-color: #9453A6 !important;
+}
+
+.bcgColor3 {
+    background-color: #8CBF3F !important;
+}
+
+.bcgColor4 {
+    background-color: black !important;
+    color: white;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+button {
+    color: black !important;
+    font-weight: 700 !important;
+    font-size: 0.7em !important;
+}
+
+.card-body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    line-height: 2;
+    font-size: 1.3em;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#h2Final {
+    color: black;
+    text-shadow: 0 0 8px #9453A6;
+    font-size: 3em !important;
+    text-align: center;
+    font-family: 'Henny Penny', 'Pattaya';
+    line-height: 1.5;
+
+}
+
+.maileBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail {
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.footer {
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#footerText {
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.links2 {
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+
+.links2 a:hover {
+    color: #F2CC0F;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+}
+
+.credit {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .links2 a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.5rem;
+    }
+
+    .links2 a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.7rem;
+    }
+
+    .credit {
+        text-align: center;
+        font-size: 0.7rem;
+        margin-top: 0;
+    }
+}

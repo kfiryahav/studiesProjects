@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    font-family: 'Henny Penny', 'Pattaya';
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 90px;
+}
+
+.brand-title {
+    margin-left: 80px;
+}
+
+.brand-title img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbarlinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbarlinks li {
+    list-style: none;
+
+}
+
+.navbarlinks li a {
+    text-decoration: none;
+    color: white;
+    padding: 1.0rem;
+    display: block;
+    margin-right: 100px;
+}
+
+nav ul li a:hover {
+    color: #F2CC0F;
+    text-decoration: none;
+    font-size: 1.08rem;
+    transition: all ease-in-out .2s;
+}
+
+
+.firstPic {
+    background: url('pictures/gallery/contact\ us.jpg');
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Henny Penny', 'Pattaya';
+    text-align: center;
+    line-height: 1.5;
+    font-size: 3rem !important;
+    color: white;
+    padding: 70px;
+    text-shadow: 2px 5px 5px black;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2CC0F;
+    padding: 20px;
+}
+
+.container {
+
+    margin-top: 100px;
+    width: 450px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px black;
+    margin-bottom: 100px;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 20px;
+    font-family: 'Henny Penny', 'Pattaya';
+    line-height: 1.5px;
+    padding: 10px;
+    font-size: 2rem;
+    text-shadow: 0 0 7px black;
+}
+
+form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 0.9rem;
+
+}
+
+.form-control a {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 0.9rem;
+}
+
+.form-control label {
+    color: rgb(75, 75, 75);
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+
+.form-control input {
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.form-control textarea {
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+input[type='submit'] {
+    background-color: #8CBF3F;
+    border: 2px solid #8CBF3F;
+    border-radius: 4px;
+    color: black;
+    display: block;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+.form-control.success input {
+    border-color: green;
+}
+
+.form-control.error input {
+    border-color: red;
+}
+
+.form-control small {
+    color: red;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links {
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+.links:hover {
+    display: block;
+    color: #F2CC0F;
+    font-size: 1.3rem;
+    transition: all ease-in-out 0.3s;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+.credit {
+    display: b;
+}
+
+@media (max-width: 992px) {
+    .toggle-button {
+        display: flex;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .navbarlinks {
+        display: none;
+        width: 100%;
+        background-color: #F2CC0F;
+        opacity: 0.8;
+        z-index: 10;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbarlinks ul {
+        width: 100px;
+        flex-direction: column;
+    }
+
+    .navbarlinks ul li a {
+        color: black;
+    }
+
+    .navbarlinks ul li a:hover {
+        color: blueviolet;
+    }
+
+    .navbarlinks.active {
+        display: flex;
+    }
+
+    .brand-title {
+        margin-left: 30px;
+    }
+
+    .brand-title img {
+        height: 40px;
+        width: 40px;
+        margin-top: 15px;
+    }
+
+    h1 {
+        font-family: 'Henny Penny', 'Pattaya';
+        text-align: center;
+        line-height: 1.5;
+        font-size: 2.2rem !important;
+        color: white;
+        padding: 70px;
+        text-shadow: 2px 5px 5px black;
+    }
+
+    .links {
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .footer {
+        height: 30vh;
+        width: 100%;
+        background-color: black;
+        flex-direction: column;
+    }
+}
